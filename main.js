@@ -64,7 +64,7 @@ function updateRecord(formData) {
     selectedRow.cells[0].innerHTML = formData.fullName;
     selectedRow.cells[1].innerHTML = formData.birthdate;
     selectedRow.cells[2].innerHTML = formData.dessert;
-    selectedRow.cells[3].innerHTML = formData.city;
+    selectedRow.cells[3].innerHTML = formData.office;
 }
 
 //function to delete record already created
